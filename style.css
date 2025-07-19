@@ -47,7 +47,7 @@ p.quote {
     text-decoration: none;
     color: var(--text);
     transition: transform 0.2s ease;
-    padding: 0.5rem;
+    padding: 1rem;
     
 }
 
