@@ -59,6 +59,14 @@ p.quote {
 
 .book:hover {
       transform: scale(1.03);
+      box-shadow:-10px -10px 20px rgba(255, 255, 255, 0.6),
+        10px 10px 20px rgba(210, 200, 180, 0.7);
+}
+
+.book:active {
+  box-shadow:
+    inset -10px -10px 20px rgba(255, 255, 255, 0.6),
+    inset 10px 10px 20px rgba(210, 200, 180, 0.7);
 }
 
 .book img {
